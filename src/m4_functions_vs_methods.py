@@ -225,7 +225,7 @@ def try_methods_and_functions():
     easter.draw_circle(30)
     easter.draw_square(50)
     ###########################################################################
-    # TODO: 6. Implement and test this function, per its doc-string above.
+    # DONE: 6. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #
     #   NOTE: This function should ** CALL ** the
