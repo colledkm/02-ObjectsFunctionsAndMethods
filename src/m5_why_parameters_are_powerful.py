@@ -26,8 +26,14 @@ def main():
 #    better_draw_circles(rg.Point(100, 50), 3)
 #    better_draw_circles(rg.Point(-200,0),15)
 #    better_draw_circles(rg.Point(50,-100),20)
-    even_better_draw_circles(rg.Point(100, 50),10,3,'blue',1)
-    even_better_draw_circles(rg.Point(-200, 0),20,10,'red',7)
+#    even_better_draw_circles(rg.Point(0, 0), 10, 10, 'blue', 1)
+#    even_better_draw_circles(rg.Point(0, 0), 20, 20, 'green', 7)
+    even_better_draw_circles(rg.Point(0, 0), 30, 30, 'red', 8)
+    even_better_draw_circles(rg.Point(10, 0), 29, 31, 'orange', 8)
+    even_better_draw_circles(rg.Point(20, 0), 28, 32, 'yellow', 8)
+    even_better_draw_circles(rg.Point(30, 0), 27, 33, 'green', 8)
+    even_better_draw_circles(rg.Point(40, 0), 26, 34, 'blue', 8)
+    even_better_draw_circles(rg.Point(50, 0), 25, 35, 'purple', 8)
 
     window.update()
     window.close_on_mouse_click()
@@ -149,7 +155,7 @@ def better_draw_circles(point,radii_scale):
 
 
 ###############################################################################
-# TODO: 4a.
+# DONE: 4a.
 #   In the previous _TODO_, you made a MORE POWERFUL version
 #   of   draw_circles   by introducing a PARAMETER for the amount
 #   by which the radii of the concentric circles increase.
@@ -171,7 +177,7 @@ def better_draw_circles(point,radii_scale):
 #   to the body of the   even_better_draw_circles   function defined below.
 #   Then add parameters and modify the code to make them work!
 #
-# TODO: 4b.
+# DONE: 4b.
 #   In   main  at the place indicated, comment-out the existing calls
 #   to  better_draw_circles  and add at least two calls to the improved
 #   even_better_draw_circles  function, to TEST that your modified code is
@@ -202,7 +208,7 @@ def even_better_draw_circles(point,radii_scale,number_of_circles,color,thickness
 
 
 ###############################################################################
-# TODO: 5.
+# DONE: 5.
 #
 # Finally, comment-out the existing calls to  even_better_draw_circles  and
 # add code in   main  to draw various circles that form a BEAUTIFUL picture!
